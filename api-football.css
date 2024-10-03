@@ -3,11 +3,10 @@ Version : 1.1.8
  */
 :root {
   --font: "Raleway", sans-serif;
-
-  --background-color: #121212;
-  --background-color-header: #121212;
-  --color-text: #000;
-  --color-text-header: #000;
+  --background-color: #00141e;
+  --background-color-header: #0f2d37;
+  --color-text: #fff;
+  --color-text-header: #ffcd00;
   --color-green: #01d099;
   --color-red: #f64e60;
   --color-yellow: #ffa800;

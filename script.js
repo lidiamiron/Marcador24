@@ -25,11 +25,11 @@ fetchData("some-endpoint").then((data) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const widget = document.getElementById("wg-api-football-games");
+  const widget = document.getElementById("wg-api-football-fixtures");
 
   setTimeout(() => {
     const translations = {
-      Match: "Partido",
+      HalfTime: "Descanso",
       League: "Liga",
       Score: "Puntuación",
       ALL: "TODOS",
@@ -52,4 +52,11 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   }, 3000); // Ajusta el tiempo según la carga del widget
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const widget = document.getElementById("wg-api-football-fixtures");
+  const dateInput = document.getElementById("match-date");
+  const today = new Date().toISOString().split("T")[0];
+  widget.setAttribute("data-date", today);
 });
