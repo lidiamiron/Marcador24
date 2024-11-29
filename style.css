@@ -1,0 +1,477 @@
+body {
+  font-family: "raleway", sans-serif;
+  background-color: #222222;
+}
+
+.navbar {
+  background-color: #222222 !important;
+
+  border-bottom: 2px solid #f64e60 !important;
+}
+
+.navbar-brand {
+  color: #01d099 !important;
+  margin-right: 50px !important;
+  font-weight: 500;
+}
+
+.nav-link {
+  color: #f6f3f3 !important;
+}
+.search {
+  height: 30px;
+}
+.form-control {
+  background-color: #f6f3f3 !important;
+}
+
+.btn {
+  background-color: #01d099;
+  color: #1f1b1b;
+}
+
+.btn:hover {
+  background-color: #f64e60;
+  color: #f6f3f3;
+}
+
+.leagues-section {
+  background-color: #222222;
+}
+
+.row {
+  margin-top: 60px;
+}
+
+.league-card {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 5px;
+  background-color: #edecec;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.league-card:hover {
+  transform: scale(1.05);
+}
+
+.premier-league-logo {
+  width: 90px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.laLiga-league-logo {
+  width: 37px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.serieA-league-logo {
+  width: 22px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.bundesliga-league-logo {
+  width: 38px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ligue1-league-logo {
+  width: 28px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.eredivisie-league-logo {
+  width: 68px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.primeira-league-logo {
+  width: 31px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.champions-league-logo {
+  width: 43px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.europa-league-logo {
+  width: 43px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.conference-league-logo {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.uefa-nations-league-logo {
+  width: 28px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.league-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Clasificaciones*/
+
+.wg_header {
+  font-size: 15px !important;
+}
+
+.wg_flag {
+  width: 18px !important;
+}
+td {
+  font-size: 13px !important;
+}
+
+#wg-api-football-standings {
+  border: 1px solid #121212;
+  margin-top: 30px;
+}
+
+.wg_header {
+  background-color: #1f1b1b !important;
+}
+
+h1 {
+  color: #d9d9da;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.competitions-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.competition-card {
+  display: flex;
+  align-items: center;
+  background-color: #d9d9da;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: #222222;
+}
+.competition-card img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+.competition-details {
+  display: flex;
+  flex-direction: column;
+}
+.competition-details span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .competitions-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*INDEX*/
+
+#wg-api-football-games {
+  margin-top: 60px;
+  border: 1px solid #121212;
+}
+
+#wg-api-football-fixtures {
+  margin-top: 30px;
+  border: 1px solid #121212;
+}
+
+/*FOOTER*/
+
+ul li {
+  list-style: none;
+}
+
+.f-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.f-nav {
+  color: #d9d9da;
+}
+
+ul a {
+  text-decoration: none;
+  color: #d9d9da;
+}
+
+h5 {
+  color: #d9d9da;
+}
+.icon {
+  color: #ffc76c !important;
+}
+
+/*Perfil de Jugadores*/
+
+/* Player Card Styles */
+.player-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.player-card {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.player-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.player-info {
+  padding: 20px;
+}
+
+.player-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.player-details {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/*Perfil de jugadores*/
+
+.options {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+select {
+  background-color: #f6f3f3;
+  border-radius: 3px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#searchButton {
+  background-color: #f64e60;
+  border: 2px solid #9f303b;
+  color: #f1f1f1;
+  border-radius: 3px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.player-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.player-profile {
+  color: white;
+  width: 299px;
+  gap: 15px;
+  border: 0.1px solid #343436;
+  border-radius: 3px;
+  background-color: #1f1b1b;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.player-profile h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f64e60;
+}
+
+.player-photo {
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.player-details p {
+  font-size: 13px;
+  margin: 5px 0;
+}
+
+.player-profile p {
+  font-size: 16px;
+
+  color: #d9d9da;
+}
+
+/*Equipos*/
+
+.search-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.search-container input {
+  height: 35px;
+  background-color: #edecec;
+}
+
+.search-container button {
+  background-color: #f64e60;
+  border: 2px solid #9f303b;
+  color: #edecec;
+  border-radius: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#suggestionsList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: white;
+  position: absolute;
+  z-index: 1000;
+  width: 300px; /* Adaptează dimensiunea după nevoie */
+}
+
+#suggestionsList li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#suggestionsList li:hover {
+  background-color: #f0f0f0;
+}
+
+.match-container {
+  margin: auto;
+  max-width: 600px;
+}
+
+.match-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.match {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #edecec;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.match-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.match h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.score {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+p {
+  color: #333;
+  text-align: center;
+  margin: 0;
+}
+
+.team-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.competition-logo {
+  width: 45px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+footer {
+  margin-top: 40px;
+  border-top: 2px solid #f64e60;
+}
+
+.mt-5 {
+  margin-top: 2rem !important;
+}
+
+.options {
+  margin-top: 60px;
+}
